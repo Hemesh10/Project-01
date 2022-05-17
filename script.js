@@ -59,6 +59,7 @@ function casetteAnimation() {
                 end: "55% 60%",
                 scrub: 1
             },
+            y:"10%",
             fontSize: 0,
             rotate: 360,
             duration: 1
