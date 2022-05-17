@@ -255,7 +255,7 @@ function fullscreenMenuImageBoxChange() {
             elem.addEventListener("mouseover", function (dets) {
                 gsap.to(".images", {
                     x: dets.target.dataset.base * 100 + "%",
-                    ease: "Ease.easeInOut",
+                    ease: Expo.easeInOut,
                     duration: 1
                 })
             })
